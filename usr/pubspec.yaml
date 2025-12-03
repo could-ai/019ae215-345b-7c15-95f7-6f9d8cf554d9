@@ -1,5 +1,5 @@
 name: couldai_user_app
-description: "A new Flutter project."
+description: "Chris-Tech Solutions Field Service Manager App"
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -13,6 +13,8 @@ dependencies:
   provider: ^6.1.1
   intl: ^0.19.0
   uuid: ^4.3.3
+  image_picker: ^1.0.7 # For capturing job images
+  shared_preferences: ^2.2.2 # For local storage/session persistence
 
 dev_dependencies:
   flutter_test:
